@@ -8,6 +8,7 @@ if __name__ == '__main__':
     for x in per:
         if (int(x[0])+int(x[1]))==int(target):
             sol.append(a.index(x[0]))
+
             sol.append(a.index(x[1]))
             break
 
